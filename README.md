@@ -11,10 +11,12 @@ You can install the package via composer:
 composer require mrbohem/livewire-form-keeper
 ```
 
-Optionally, you can publish the views using
+## Usage
 
-```bash
-php artisan vendor:publish --tag="livewire-form-keeper-views"
+Add Blade directives before the end body tag in your template.
+
+```php
+<x-livewire-form-keeper::script />
 ```
 
 ## Credits
